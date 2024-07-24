@@ -76,8 +76,8 @@ nav .container ul li a{
 }
 
 .hero .container img{
-    /* background-color: rgb(0, 183, 255); */
-    background-color: black;
+    background-color: rgb(0, 183, 255);
+    /* background-color: black; */
     
 
     border-radius: 20px;
@@ -88,3 +88,61 @@ nav .container ul li a{
     object-fit: contain;
 }
 /* Hero END */
+
+
+
+/* Content START */
+.content{
+    width: 100%;
+}
+
+.content .container{
+    padding: 10px;
+}
+
+.content .container h2{
+    color: black;
+    /* color: #2596be; */
+}
+
+.content .container .card{
+    background-color: white;
+}
+
+.content .container .card .container{
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+}
+
+.content .container .card .container a{
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+
+    box-shadow:  0 0 10px 1px black;
+
+    background-color: white;
+    padding: 10px;
+
+    transition: all ease-in-out 250ms;
+}
+
+
+.content .container .card .container a:hover{
+    z-index: 1;
+    box-shadow: 0 0 20px 1px;
+
+    transition: all ease  22ms 50ms;
+}
+
+.content .container .card .container a img{
+    width: 100%;
+
+    max-height: 400px;
+} 
+
+.content .container .card .container a p{
+
+}
+/* Content END */
