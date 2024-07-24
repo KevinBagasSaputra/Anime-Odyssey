@@ -1,0 +1,90 @@
+*,
+html,
+body{
+    padding: 0;
+    margin: 0;
+
+    font-family: Montserrat;
+    /* Font family */
+}
+
+
+/* Navbar START */
+nav{
+    width: 100%;
+}
+
+nav .container{
+    background-color: white;
+    padding: 20px;
+}
+
+nav .container ul{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+nav .container ul li{
+    list-style-type: none;
+}
+
+nav .container ul li .judul{
+    color: rgb(0, 183, 255);
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 5px;
+
+    /* background-color: white;
+    border-radius: 6px;
+    border: 2px solid black; */
+
+} nav .container ul li .judul:hover{
+    text-decoration: underline black;
+    text-underline-offset: 5px;
+}
+
+nav .container ul li a{
+    color: rgb(0, 183, 255);
+    font-weight: 600;
+    text-decoration: none;
+    padding: 5px;
+} nav .container ul li a:hover{
+    color: rgb(0, 183, 255);
+
+    text-decoration: underline black;
+    text-underline-offset: 5px;
+}
+/* Navbar END */
+
+/* Hero START */
+.hero{
+    width: 100%;
+}
+
+.hero .container{
+    padding: 0 10px 0 10px;
+    background-color: white;
+}
+
+.hero .container ul{
+    /* background-color: #333; */
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+
+}
+
+.hero .container img{
+    /* background-color: rgb(0, 183, 255); */
+    background-color: black;
+    
+
+    border-radius: 20px;
+    min-width: 100%;
+
+    max-width: 50%;
+    max-height: 600px;
+    object-fit: contain;
+}
+/* Hero END */
