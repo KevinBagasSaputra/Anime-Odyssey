@@ -1,46 +1,60 @@
 *,
 html,
 body{
-    padding: 0;
-    margin: 0;
+    padding: 0; /*membuat padding pada halaman website menjadi 0*/
+    margin: 0; /*membuat margin pada halaman website menjadi 0*/
 
-    font-family: Montserrat;
+    font-family: Montserrat; /*menggunakan font dari google font*/
     /* Font family */
 }
+
+/* Marquee START */
+.marquee{
+    width: 100%;
+} 
+
+.marquee .container{
+    padding: 10px;
+    color: white;
+    background-color: rgb(0, 183, 255);
+
+
+}
+/* Marquee END */
 
 
 /* Navbar START */
 nav{
-    width: 100%;
+    width: 100%; /*lebar navbar sebesar 100%*/
 }
 
 nav .container{
-    background-color: white;
-    padding: 20px;
+    background-color: white; /*warna pada navbar = putih*/
+    padding: 20px; /*memberikan jarak atau lebar pada navbar, dengan menggunakan padding*/
 }
 
 nav .container ul{
-    display: flex;
-    justify-content:space-evenly;
+    display: flex; /*Supaya link pada navbar menjadi 1 baris, tujuanny agar mudah di atur dalam tata-letaknya*/
+    justify-content:space-evenly; /* mengatur tata letak link di navbar*/
 }
 
 nav .container ul li{
-    list-style-type: none;
+    list-style-type: none; /*menghapus style list pada link di navbar*/
 }
 
 nav .container ul li .judul{
-    color: rgb(0, 183, 255);
-    font-size: 20px;
-    font-weight: 700;
-    text-decoration: none;
-    padding: 5px;
+    color: rgb(0, 183, 255); /*link a memiliki warna biru*/
+    font-size: 20px; /*mengatur ukuran link navbar*/
+    font-weight: 700; /*memberikan ketebalan pada link di navbar*/
+    text-decoration: none; /*menghapus garis bawah pada link di navbar*/
+    padding: 5px; /*memberikan lebar pada link di navbar dengan padding sebesar 5px*/
 
     /* background-color: white;
     border-radius: 6px;
     border: 2px solid black; */
 
 } nav .container ul li .judul:hover{
-    text-decoration: underline black;
+    text-decoration: underline rgb(0, 183, 255); /*ketika di hover maka akan muncul properti underline dengan warna hitam*/
     text-underline-offset: 5px;
 }
 
@@ -52,7 +66,7 @@ nav .container ul li a{
 } nav .container ul li a:hover{
     color: rgb(0, 183, 255);
 
-    text-decoration: underline black;
+    text-decoration: underline rgb(0, 183, 255);
     text-underline-offset: 5px;
 }
 /* Navbar END */
@@ -67,7 +81,8 @@ nav .container ul li a{
     background-color: white;
 }
 
-.hero .container ul{
+.hero .container {
+    
     /* background-color: #333; */
     overflow: auto;
     white-space: nowrap;
@@ -76,16 +91,26 @@ nav .container ul li a{
 }
 
 .hero .container img{
-    background-color: rgb(0, 183, 255);
-    /* background-color: black; */
+    /* background-color: rgb(0, 183, 255); */
+    background-color: black;
     
 
-    border-radius: 20px;
-    min-width: 100%;
+    /* border-radius: 20px; */
+    min-width: 80%;
 
     max-width: 50%;
-    max-height: 600px;
-    object-fit: contain;
+    max-height: 700px;
+    /* max-height: 800px; */
+
+    /* object-fit: contain; */
+    opacity: 1;
+    transition: all ease-in 150ms;
+} .hero .container img:hover{
+    box-shadow: 0 0 20px 1px black;
+    z-index: 1;
+
+    transition: all ease-in-out 500ms;
+
 }
 /* Hero END */
 
@@ -111,7 +136,8 @@ nav .container ul li a{
 
 .content .container .card .container{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    /* justify-content: center; */
     /* justify-content: space-between; */
 }
 
