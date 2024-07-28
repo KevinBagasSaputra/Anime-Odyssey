@@ -122,7 +122,8 @@ nav .container ul li a{
 }
 
 .content .container{
-    padding: 10px;
+    padding: 5px;
+    /* padding: 20px; */
 }
 
 .content .container h2{
@@ -172,3 +173,71 @@ nav .container ul li a{
 
 }
 /* Content END */
+
+
+
+
+
+/* Library START */
+.library{
+    width: 100%;
+    background-color: #30302D; /*s*/
+
+}
+
+.library .container{
+    padding: 10px;
+}
+
+.library .container h2{
+    color: white; /*s*/
+    border-bottom: 2px solid white; /*s*/
+}
+
+.library .container .card{
+    background-color: #30302D; /*s*/
+
+}
+
+.library .container .card .container{
+}
+
+.library .container .card .container ul{
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+
+    display: flex;
+    background-color: #30302D; /*s*/
+
+}
+
+.library .container .card .container ul a{
+    /* text-align: center; */
+
+    text-decoration: none;
+} .library .container .card .container ul a:hover{
+    font-weight: 700;
+    }
+
+.library .container .card .container ul p{
+    /* color: black; */
+    color: white; /*s*/
+    text-align: center;
+
+}
+
+
+.library .container .card .container ul a img{
+    border-radius: 20px;
+    min-height: 200px;
+    
+    max-height: 200px;
+    padding: 10px;
+    /* padding: 5px; */
+    /* background-color: white; */
+    background-color: #30302D; /*s*/
+} .library .container .card .container ul a img:hover{
+    opacity: 0.7;
+    }
+/* Library END */
