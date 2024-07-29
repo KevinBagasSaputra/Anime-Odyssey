@@ -230,9 +230,9 @@ nav .container ul li a{
 
 .library .container .card .container ul a img{
     border-radius: 20px;
-    min-height: 250px;
+    min-height: 100px;
     
-    max-height: 250px;
+    max-height: 200px;
     padding: 5px;
     /* padding: 5px; */
     /* background-color: white; */
