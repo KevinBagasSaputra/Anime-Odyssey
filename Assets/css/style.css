@@ -139,12 +139,19 @@ nav .container ul li a{
     .content .card .container a{
         width: 100%;
         padding: 10px;
+
+        text-decoration: none;
+        color: black;
+    } .content .card .container a:hover{
+        opacity: 0.7;
     }
 
     .content .card .container a img{
         width: 100%;
+        
         min-height: 100%;
-        max-height: 50%;
+        max-height: 50%;        
+
     }
     /* Card END */
 
