@@ -138,6 +138,7 @@ nav .container ul li a{
 
     .content .card .container a{
         width: 100%;
+        padding: 10px;
     }
 
     .content .card .container a img{
