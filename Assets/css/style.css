@@ -122,56 +122,32 @@ nav .container ul li a{
 }
 
 .content .container{
-    padding: 5px;
-    /* padding: 20px; */
+    padding: 5px
 }
 
-.content .container h2{
-    color: black;
-    /* color: #2596be; */
-}
+    /* Card START */
+    .content .card{
+        width: 100%;
+    }
+    
+    .content .card .container{
+        padding: 5px;
+        display: flex;
+        padding: 20px;
+    }
 
-.content .container .card{
-    background-color: white;
-}
+    .content .card .container a{
+        width: 100%;
+    }
 
-.content .container .card .container{
-    display: flex;
-    justify-content: space-evenly;
-    /* justify-content: center; */
-    /* justify-content: space-between; */
-}
-
-.content .container .card .container a{
-    color: black;
-    font-weight: 700;
-    text-decoration: none;
-
-    box-shadow:  0 0 10px 1px black;
-
-    background-color: white;
-    padding: 10px;
-
-    transition: all ease-in-out 250ms;
-}
+    .content .card .container a img{
+        width: 100%;
+        min-height: 100%;
+        max-height: 50%;
+    }
+    /* Card END */
 
 
-.content .container .card .container a:hover{
-    z-index: 1;
-    box-shadow: 0 0 20px 1px;
-
-    transition: all ease  22ms 50ms;
-}
-
-.content .container .card .container a img{
-    width: 100%;
-
-    max-height: 400px;
-} 
-
-.content .container .card .container a p{
-
-}
 /* Content END */
 
 
@@ -181,7 +157,7 @@ nav .container ul li a{
 /* Library START */
 .library{
     width: 100%;
-    background-color: #30302D; /*s*/
+    /* background-color: #30302D; s */
 
 }
 
@@ -190,12 +166,13 @@ nav .container ul li a{
 }
 
 .library .container h2{
-    color: white; /*s*/
+    color: black; /*s*/
+    /* color: white; s */
     border-bottom: 2px solid white; /*s*/
 }
 
 .library .container .card{
-    background-color: #30302D; /*s*/
+    /* background-color: #30302D; s */
 
 }
 
@@ -205,10 +182,10 @@ nav .container ul li a{
 .library .container .card .container ul{
     overflow: auto;
     white-space: nowrap;
-/*     padding: 10px; */
+    /* padding: 10px; */
 
     display: flex;
-    background-color: #30302D; /*s*/
+    /* background-color: #30302D; s */
 
 }
 
@@ -221,8 +198,8 @@ nav .container ul li a{
     }
 
 .library .container .card .container ul p{
-    /* color: black; */
-    color: white; /*s*/
+    color: black;
+    /* color: white; s */
     text-align: center;
 
 }
@@ -238,7 +215,7 @@ nav .container ul li a{
     /* background-color: white; */
     transition: all ease-in 550ms;
 
-    background-color: #30302D; /*s*/
+    /* background-color: #30302D; s */
 } .library .container .card .container ul a img:hover{
     opacity: 0.7;
     transition: all ease-in-out 50ms;
